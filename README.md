@@ -58,39 +58,6 @@ Analytics & Reporting
 * Star Schema implementation.
 * Optimized for reporting and dashboards.
 
----
-
-## 📂 Project Structure
-
-```text
-SQL-Data-Warehouse-Project/
-│
-├── datasets/
-│
-├── bronze/
-│   ├── load_bronze.sql
-│   └── bronze_tables.sql
-│
-├── silver/
-│   ├── clean_data.sql
-│   ├── transform_data.sql
-│   └── silver_tables.sql
-│
-├── gold/
-│   ├── dim_customer.sql
-│   ├── dim_product.sql
-│   ├── fact_sales.sql
-│   └── analytical_views.sql
-│
-├── diagrams/
-│   ├── medallion_architecture.png
-│   └── star_schema.png
-│
-└── README.md
-```
-
----
-
 ## ⭐ Key Features
 
 * Modern Medallion Architecture
